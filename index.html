@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Анкета второй Школы разработки интерфейсов в Москве</title>
+    <meta name="author" content="Никита Попов">
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+     <div class="container">
+
+         <div class="sticky-wrapper">
+             <header>
+                 <h1>Анкета второй Школы разработки интерфейсов в Москве</h1>
+                 <div class="progress progress-striped active">
+                     <div class="bar" style="width: 0;"></div>
+                 </div>
+                 <div class="progress-info">0 ответов из 15</div>
+             </header>
+         </div>
+
+        <div class="description">
+            <p>Яндекс открывает набор во вторую Школу разработки интерфейсов в Москве.</p>
+            <p>Для поступления необходимо заполнить анкету с тестовыми заданиями. Приём заявок закрывается 19 августа в 23:59 по московскому времени. По результатам теста мы пригласим в Школу 30-40 человек.
+               Подробности о Школе читайте на <a href="http://events.yandex.ru/events/shri/">этой странице.</a></p>
+        </div>
+
+         <form action="" id="contact-form" class="form-horizontal">
+             <fieldset>
+
+                 <div class="section-index">1 </div>
+                 <div class="section-header" data-toggle="collapse" data-target="#first">
+                     Расскажите о себе
+                 </div>
+
+                 <div id="first" class="collapse">
+
+                     <div class="field">
+                         <label>Год рождения</label>
+                         <input id="year" name="year" type="text" placeholder="" class="input-xlarge">
+                     </div>
+
+                     <div class="field">
+                         <label>Город, в котором вы живёте</label>
+                         <input id="city" name="city" type="text" placeholder="" class="input-xlarge">
+                     </div>
+
+                     <div class="field">
+                         <label>Вуз, факультет, специальность, кафедра</label>
+                         <textarea class="input-xlarge" id="university" name="university"></textarea>
+                     </div>
+
+                     <div class="field">
+                         <label>Год окончания вуза</label>
+                         <input id="graduation" name="graduation" type="text" placeholder="" class="input-xlarge">
+                     </div>
+
+                     <div class="field">
+                         <label>Откуда вы о нас узнали?</label>
+                         <textarea class="input-xxlarge" id="howYouKnow" name="howYouKnow"></textarea>
+                     </div>
+                 </div>
+
+
+
+                 <div class="section-index">2 </div>
+                 <div class="section-header" data-toggle="collapse" data-target="#second">
+                     Поделитесь вашими ожиданиями от школы
+                 </div>
+
+                 <div id="second" class="collapse">
+                    <div class="field">
+                        <label>Чего вы ожидаете от участия в Школе?</label>
+                        <textarea class="input-xxlarge" id="expectations" name="expectations"></textarea>
+                    </div>
+
+                     <div class="field">
+                         <label>Сколько времени вы были бы готовы уделять стажировке или работе в Яндексе?</label>
+                         <textarea class="input-xxlarge" id="timing" name="timing"></textarea>
+                     </div>
+                 </div>
+
+                 <div class="section-index">3 </div>
+                 <div class="section-header" data-toggle="collapse" data-target="#third">
+                     Расскажите, что вы умеете
+                 </div>
+
+                 <div id="third" class="collapse">
+                     <div class="field">
+                         <label>Уровень владения английским языком</label>
+                         <label class="radio">
+                             <input type="radio" name="english" value="elementary">
+                             начальный
+                         </label>
+                         <label class="radio">
+                             <input type="radio" name="english" value="intermediate">
+                             средний
+                         </label>
+                         <label class="radio">
+                             <input type="radio" name="english" value="advanced">
+                             свободное владение
+                         </label>
+                     </div>
+
+                     <div class="field">
+                         <label>Расскажите о вашем опыте разработки. Нам будет интересно всё — как серьезный интерфейс, так и просто домашняя страничка.</label>
+                         <textarea class="input-xxlarge" id="devexperience" name="devexperience"></textarea>
+                     </div>
+
+                     <div class="field">
+                         <label>Если вы где-нибудь работали, расскажите, какие у вас были должностные обязанности и был ли опыт работы в команде.</label>
+                         <textarea class="input-xxlarge" id="workexperience" name="workexperience"></textarea>
+                     </div>
+
+                     <div class="field">
+                         <label>Перечислите, какими программными продуктами вы пользуетесь в своей работе — от редактора до специализированных утилит (Intellij Idea, Node.js, Uglify.js, GNU Make). Для каждого инструмента укажите, какие задачи вы с помощью него решаете и почему выбрали именно его.</label>
+                         <textarea class="input-xxlarge" id="tools" name="tools"></textarea>
+                     </div>
+
+                     <div class="field">
+                         <label>Пользуетесь ли вы командной строкой? Какими командами вы пользуетесь и какие задачи вы решаете с их помощью? С какими программами вы преимущественно или полностью взаимодействуете через интерфейс командной строки?</label>
+                         <textarea class="input-xxlarge" id="cmdline" name="cmdline"></textarea>
+                     </div>
+                  </div>
+
+
+                 <div class="section-index">4 </div>
+                 <div class="section-header" data-toggle="collapse" data-target="#fourth">
+                     Выполните тестовые задания
+                 </div>
+
+
+                 <div id="fourth" class="collapse">
+                     <div class="field">
+                         <label> Напишите на JavaScript функцию, которая выводит список всех чисел, которые равны сумме факториалов своих цифр. Пример такого числа:<br><br>
+                             4! + 0! + 5! + 8! + 5! = 40585<br><br>
+                             В качестве ответа на вопрос пришлите ссылку на <a href="http://jsfiddle.net/">http://jsfiddle.net/</a> с вашим кодом или на ваш репозиторий на <a href="http://jsfiddle.net/">https://github.com/</a>.</label>
+                         <textarea class="input-xxlarge" id="factorion" name="factorion"></textarea>
+                     </div>
+
+                     <div class="field">
+                         <div><div><p>Вы — пилот грузового межгалактического корабля. Ваша работа — перевозка грузов с одной планету на другую.
+                             Грузоподъемность вашего корабля ограничена, поэтому за один рейс вы можете перевезти не более N кг полезного груза.
+                             Ваш корабль умеет сообщать свое состояние (местоположение и степень загруженности), а также летать в любую точку пространства.
+                             Каждая планета может содержать на себе груз, который можно взять. Также на каждой планете груз можно оставить.</p>
+
+                         </div><p>Задание</p><p>Даны незавершенные интерфейсы корабля и планеты. Напишите недостающий код.</p>
+                             <p>Полное условие задачи доступно на <a href="https://github.com/yandex-shri/introtask-space">https://github.com/yandex-shri/introtask-space</a>.
+                         </p><p>В качестве ответа на вопрос пришлите ссылку на
+                             <a href="http://jsfiddle.net/" class="b-link" target="_blank">http://jsfiddle.net/</a> с вашим кодом или на ваш репозиторий на
+                             <a href="https://github.com/" class="b-link" target="_blank">https://github.com/</a>.
+                         </p></div>
+                         <textarea class="input-xxlarge" id="space" name="space"></textarea>
+                     </div>
+
+
+                     <div class="field">
+                         <div><div><p>Сверстайте форму-анкету с нашими заданиями для кандидатов. Страница должна работать в следующих браузерах: MSIE (8, 9, 10), Google Chrome (26, 27), Firefox (20, 21), Opera (12.15, 12.14), Яндекс.Браузер 1.5. По возможности используйте приёмы безопасной деградации CSS. Страница должна содержать интерактив, реализованный с помощью JS и jQuery. Это может быть:</p></div><ul><li><p>проверка полноты и правильности заполнения полей (где это возможно);</p></li><li><p>возможность свернуть и развернуть разделы (аккордеон);</p></li><li><p>индикатор заполнения анкеты;</p></li><li><p>что-нибудь ещё.</p></li></ul><p>Подумайте над тем, как эти данные будут отправляться на сервер.</p><p>Будет плюсом, если вы сверстаете страницу, используя БЭМ.</p><p>Дополнительные задания</p><p>1. Выполните задание про форму-анкету, используя один из классических шаблонизаторов: Handlebars, mustache, Dust, Jade и т.п.</p><p>2. Выполните задание про форму-анкету, используя один из экзотических шаблонизаторов: XSLT, YATE, BEMHTML и т.п.</p><p>Разработку необходимо вести на
+                             <a href="https://github.com/">https://github.com/</a>. В качестве ответа на вопрос пришлите ссылку на проект.
+                         </p></div>
+                         <textarea class="input-xxlarge" id="form" name="form"></textarea>
+                     </div>
+                 </div>
+
+                 <button type="submit" class="btn btn-primary btn-large">Отправить анкету</button>
+
+
+
+
+
+        </fieldset>
+    </form>
+     </div>
+
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.validate.js"></script>
+     <!--<script src="js/jquery.validate.min.js"></script>-->
+     <script src="js/messages_ru.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>

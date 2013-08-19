@@ -1,0 +1,137 @@
+@import url('bootstrap.min.css');
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    background: url("../img/beige_paper.png") repeat;
+}
+
+h1
+{
+    font-size: 18pt;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+}
+
+.description
+{
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.progress
+{
+    width: 95%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0;
+
+}
+.container
+{
+    width:700px;
+    margin: 50px auto;
+    padding: 30px 30px 30px 50px;
+
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+    border-radius: 4px;
+}
+
+p
+{
+    padding-top: 10px;
+}
+
+label.valid {
+    width: 24px;
+    height: 22px;
+    background: url(../img/success.png) center center no-repeat;
+    /*display: inline-block;*/
+    text-indent: -9999px;
+}
+label.error {
+    font-size: 9pt;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.fixed-header{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    /*box-shadow: 0 1px 0px rgba(0, 0, 0, .1);*/
+}
+
+header
+{
+    background: white;
+    width:700px;
+    padding: 0;
+    height: 130px;
+    border: 1px solid white;
+    /*border: none;*/
+}
+
+.sticky-wrapper
+{
+    height: 150px;
+}
+
+.progress-info
+{
+    float: right;
+    font-size: 8pt;
+    margin-right: 20px;
+}
+
+.field
+{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 50px
+}
+
+textarea
+{
+    height: 100px;
+}
+
+button
+{
+    margin-left: 230px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+
+.section-header
+{
+    color: #0088cc;
+    font-size: 14pt;
+    font-weight: 200;
+    border-bottom: #0088cc 1px dashed;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+.section-index
+{
+    font-size: 28pt;
+    padding-right: 10px;
+    color: #eee;
+    display: inline;
+    float:left;
+    z-index:-1;
+}
